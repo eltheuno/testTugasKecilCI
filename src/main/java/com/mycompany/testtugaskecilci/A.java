@@ -8,7 +8,7 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author BIBEB
+ * @author BBBE
  * Constructor prints ctor-A
  */
 public class A {
@@ -17,7 +17,7 @@ public class A {
     }
     
     /**
-     * Function prints A
+     * Procedure prints A
      */
     public void f(){
         System.out.println("A");

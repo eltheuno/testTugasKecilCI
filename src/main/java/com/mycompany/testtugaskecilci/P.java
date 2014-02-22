@@ -8,7 +8,8 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author SONY
+ * @author BBBE
+ * Constructor prints ctor-P
  */
 public class P {
     public P(){

@@ -8,7 +8,8 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author SONY
+ * @author BBBE
+ * Procedure w() unimplemented
  */
 public interface X {
     public int w();

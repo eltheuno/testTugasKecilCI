@@ -10,7 +10,7 @@ import java.util.Vector;
 
 /**
  *
- * @author SONY
+ * @author BBBE
  */
 public class MainProg implements X{
 
@@ -32,12 +32,8 @@ public class MainProg implements X{
        
         for (int i = 0; i < allconst.N; i++) {
             v.add(i);
-        }
-        
-        for (int i = 0; i < allconst.N; i++) {
             System.out.println(v.get(i)+"");
         }
-       
     }
 
    

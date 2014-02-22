@@ -8,7 +8,8 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author SONY
+ * @author BBBE
+ * Declaring Constants PI. RHO, EPSILON, N
  */
  public final class AllConst {
      public final double PI = 3.1417;

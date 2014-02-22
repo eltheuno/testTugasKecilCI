@@ -8,7 +8,8 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author SONY
+ * @author BBBE
+ * Procedure g() unimplemented
  */
 public interface C {
     public void g();

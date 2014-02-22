@@ -8,13 +8,16 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author SONY
+ * @author BBBE
  */
 public class AB extends A implements B,C{
     public AB(){
         System.out.println("ctor-AB");
     }
     
+    /**
+     * Procedure prints AB
+     */
     @Override
     public void f(){
         System.out.println("AB");
