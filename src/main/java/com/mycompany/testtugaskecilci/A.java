@@ -8,13 +8,17 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author SONY
+ * @author BIBEB
+ * Constructor prints ctor-A
  */
 public class A {
     public A(){
         System.out.println("ctor-A");
     }
     
+    /**
+     * Function prints A
+     */
     public void f(){
         System.out.println("A");
     }
