@@ -8,12 +8,13 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author BBBE
+ * @author BBBE Team
  * Constructor prints ctor-A
  */
 public class A {
     public A(){
         System.out.println("ctor-A");
+        System.out.println("ctor-Atest");
     }
     
     /**
