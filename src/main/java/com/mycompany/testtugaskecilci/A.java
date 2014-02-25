@@ -9,7 +9,7 @@ package com.mycompany.testtugaskecilci;
 /**
  *
  * @author BBBE
- * Constructor prints ctor-A
+ * @description Constructor prints ctor-A
  */
 public class A {
     public A(){
