@@ -12,7 +12,7 @@ import junit.framework.TestCase;
 
 /**
  *
- * @author SONY
+ * @author BBBE
  */
 public class ABTest extends TestCase {
     
