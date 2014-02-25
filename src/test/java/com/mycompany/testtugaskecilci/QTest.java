@@ -18,20 +18,35 @@ public class QTest extends TestCase {
     
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     
+    /**
+     *
+     * @param testName
+     */
     public QTest(String testName) {
         super(testName);
     }
     
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void setUp() throws Exception {
        System.setOut(new PrintStream(outContent));
     }
     
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void tearDown() throws Exception {
         System.setOut(null);
     }
 
+    /**
+     *
+     */
     public void testQ() {
          Q instance = new Q();
         assertEquals("ctor-Q", outContent.toString().trim());

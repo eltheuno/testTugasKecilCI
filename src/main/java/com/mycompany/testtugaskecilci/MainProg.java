@@ -14,7 +14,11 @@ import java.util.Vector;
  */
 public class MainProg implements X{
 
-     public int w() {
+    /**
+     *
+     * @return integer 2
+     */
+    public int w() {
         return 2;
     }
      

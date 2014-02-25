@@ -7,16 +7,14 @@
 package com.mycompany.testtugaskecilci;
 
 /**
+ * Declaring Constants PI. RHO, EPSILON, N
  *
  * @author BBBE
- * Declaring Constants PI. RHO, EPSILON, N
+ * 
  */
  public final class AllConst {
-     public final double PI = 3.1417;
-     public final double RHO = 9.0;
-     public final double EPSILON = 0.005;
-     public final int N = 8;
-
-    
-     
+    public final double PI = 3.1417;
+    public final double RHO = 9.0;
+    public final double EPSILON = 0.005;
+    public final int N = 8;
 }

@@ -9,9 +9,12 @@ package com.mycompany.testtugaskecilci;
 /**
  *
  * @author BBBE
- * Constructor prints ctor-Q
  */
 public class Q {
+
+    /**
+     * Prints "ctor-Q"
+     */
     public Q(){
         System.out.println("ctor-Q");
     }

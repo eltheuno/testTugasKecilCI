@@ -18,16 +18,28 @@ public class ATest extends TestCase {
   
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     
+    /**
+     *
+     * @param testName
+     */
     public ATest(String testName) {
         super(testName);
-    }    
-    
+    }
+
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void setUp() throws Exception {
         System.setOut(new PrintStream(outContent));
         
     }
     
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void tearDown() throws Exception {
         System.setOut(null);
@@ -40,8 +52,11 @@ public class ATest extends TestCase {
         A instance = new A();
         assertEquals("ctor-A", outContent.toString().trim());
     }
+
+    /**
+     *
+     */
     public void testF() {
-        //System.out.println("f");
         A instance = new A();
         instance.f();
         String[] outPut = outContent.toString().split(

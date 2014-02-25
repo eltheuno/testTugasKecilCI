@@ -12,5 +12,11 @@ package com.mycompany.testtugaskecilci;
  * Procedure w() unimplemented
  */
 public interface X {
+
+    /**
+     *
+     * Unimplemented
+     * @return 
+     */
     public int w();
 }

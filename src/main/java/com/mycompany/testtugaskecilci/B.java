@@ -9,8 +9,11 @@ package com.mycompany.testtugaskecilci;
 /**
  *
  * @author BBBE
- * Procedure v() unimplemented
  */
 public interface B {
+
+    /**
+     * Unimplemented
+     */
     public void v();    
 }

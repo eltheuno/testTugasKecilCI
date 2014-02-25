@@ -14,20 +14,35 @@ import junit.framework.TestCase;
  */
 public class AllConstTest extends TestCase {
     
+    /**
+     *
+     * @param testName
+     */
     public AllConstTest(String testName) {
         super(testName);
     }
     
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void setUp() throws Exception {
         super.setUp();
     }
     
+    /**
+     *
+     * @throws Exception
+     */
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
     }
 
+    /**
+     *
+     */
     public void testAllConst() {
         AllConst instance = new AllConst();
         assertEquals(instance.EPSILON, 0.005);

@@ -9,15 +9,19 @@ package com.mycompany.testtugaskecilci;
 /**
  *
  * @author BBBE
- * @description Constructor prints ctor-A
+ * 
  */
 public class A {
+
+    /**
+     * Prints "ctor-A"
+     */
     public A(){
         System.out.println("ctor-A");
     }
     
     /**
-     * Procedure prints A
+     * Prints "A"
      */
     public void f(){
         System.out.println("A");

@@ -9,24 +9,31 @@ package com.mycompany.testtugaskecilci;
 /**
  *
  * @author BBBE
- * Constructor prints ctor-ABB
  * 
  */
 public class ABB extends AB{
     private int x;
     
+    /**
+     * Prints "ctor-ABB"
+     * 
+     */
     public ABB(){
         x=0;
         System.out.println("ctor-ABB");
     }
     
+    /**
+     *
+     * @param a
+     */
     public ABB(int a){
         x=a;
         System.out.println("ctor-ABB");
     }
     
     /**
-     * procedure f() prints ABB
+     * Prints "ABB"
      */
     @Override
     public void f(){
@@ -34,12 +41,16 @@ public class ABB extends AB{
     }
     
     /**
-     * procedure ToSTring print x as String
+     * Print x as String
      */
     public void ToSTring(){
         System.out.println(x+"");
     }
 
+    /**
+     *
+     * @return x
+     */
     public int getX() {
         return x;
     }
