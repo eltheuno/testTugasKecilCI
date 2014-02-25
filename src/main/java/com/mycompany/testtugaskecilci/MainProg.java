@@ -27,7 +27,7 @@ public class MainProg implements X{
        ABB a = new ABB();
        P p = new P();
        Q q = new Q();
-       Vector<Integer> v=new Vector<Integer>(allconst.N);
+       Vector<Integer> v = new Vector<Integer>(allconst.N);
        a.f();
        
         for (int i = 0; i < allconst.N; i++) {
