@@ -8,7 +8,7 @@ package com.mycompany.testtugaskecilci;
 
 /**
  *
- * @author BBBE
+ * @author BBBE Team
  * Constructor prints ctor-A
  */
 public class A {
