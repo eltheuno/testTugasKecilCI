@@ -39,5 +39,9 @@ public class ABB extends AB{
     public void ToSTring(){
         System.out.println(x+"");
     }
-    
+
+    public int getX() {
+        return x;
+    }
+
 }
