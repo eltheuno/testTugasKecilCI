@@ -14,6 +14,7 @@ package com.mycompany.testtugaskecilci;
 public class A {
     public A(){
         System.out.println("ctor-A");
+        System.out.println("ctor-A2");
     }
     
     /**
