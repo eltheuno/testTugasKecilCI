@@ -22,7 +22,7 @@ public class MainProg implements X{
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println("Mulai");
+       
        AllConst allconst = new AllConst();
        ABB a = new ABB();
        P p = new P();
