@@ -18,6 +18,7 @@ public class A {
      */
     public A(){
         System.out.println("ctor-A");
+        System.out.println("...");
     }
     
     /**
