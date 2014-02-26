@@ -17,6 +17,7 @@ public class AB extends A implements B,C{
      */
     public AB(){
         System.out.println("ctor-AB");
+        System.out.println("ctor-AB2");
     }
     
     /**
