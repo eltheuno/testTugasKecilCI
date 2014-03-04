@@ -38,6 +38,8 @@ public class MainProg implements X{
             v.add(i);
             System.out.println(v.get(i)+"");
         }
+        System.out.println("Keliling Persegi Panjang dengan p = "+allconst.N+" dan l = 2 adalah "+a.kelilingPersegiPanjang(allconst.N,2));
+        System.out.println("Luas Persegi Panjang dengan p = "+allconst.N+" dan l = 2 adalah "+a.LuasPersegiPanjang(allconst.N,2));
     }
 
    

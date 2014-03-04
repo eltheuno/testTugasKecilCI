@@ -15,5 +15,5 @@ public interface B {
     /**
      * Unimplemented
      */
-    public void v();    
+    public int tambah (int a, int b);
 }

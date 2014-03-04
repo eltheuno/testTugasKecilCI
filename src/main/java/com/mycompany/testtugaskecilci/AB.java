@@ -17,7 +17,6 @@ public class AB extends A implements B,C{
      */
     public AB(){
         System.out.println("ctor-AB");
-        System.out.println("ctor-AB2");
     }
     
     /**
@@ -28,18 +27,13 @@ public class AB extends A implements B,C{
         System.out.println("AB");
     }
 
-    /**
-     * Doing nothing
-     */
-    public void v() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+    public int tambah(int a, int b) {
+        return a+b;
     }
 
-    /**
-     * Doing nothing
-     */
-    public void g() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public int kali(int a, int b) {
+        return a*b;
     }
     
 }

@@ -64,6 +64,8 @@ public class MainProgTest extends TestCase {
         assertEquals("5", outPut[11]);
         assertEquals("6", outPut[12]);
         assertEquals("7", outPut[13]);
+        assertEquals("Keliling Persegi Panjang dengan p = 8 dan l = 2 adalah 20", outPut[14]);
+        assertEquals("Luas Persegi Panjang dengan p = 8 dan l = 2 adalah 16", outPut[15]);
         
         
     }

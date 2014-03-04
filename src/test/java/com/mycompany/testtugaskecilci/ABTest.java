@@ -69,15 +69,25 @@ public class ABTest extends TestCase {
     /**
      * Test of v method, of class AB.
      */
-    public void testV() {
-        
+    public void testTambah() {
+        AB instance = new AB();
+        assertEquals(instance.tambah(0, 0),0);
+        assertEquals(instance.tambah(1, 0),1);
+        assertEquals(instance.tambah(3, 5),8);
+        assertEquals(instance.tambah(2, 7),9);
+        assertEquals(instance.tambah(2, 10),12);
     }
 
     /**
      * Test of g method, of class AB.
      */
-    public void testG() {
-        
+    public void testKali() {
+        AB instance = new AB();
+        assertEquals(instance.kali(0, 0),0);
+        assertEquals(instance.kali(1, 0),0);
+        assertEquals(instance.kali(0, 1),0);
+        assertEquals(instance.kali(2, 2),4);
+        assertEquals(instance.kali(3, 2),6);
     }
     
 }

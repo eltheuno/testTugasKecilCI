@@ -54,5 +54,13 @@ public class ABB extends AB{
     public int getX() {
         return x;
     }
+    
+    public int kelilingPersegiPanjang(int a, int b){
+       return (2*tambah(a, b)); 
+    }
+    
+    public int LuasPersegiPanjang(int a, int b){
+       return (kali(a, b)); 
+    }
 
 }

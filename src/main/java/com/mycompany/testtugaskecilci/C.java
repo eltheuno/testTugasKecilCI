@@ -15,5 +15,5 @@ public interface C {
     /**
      * Unimplemented
      */
-    public void g();
+    public int kali(int a,int b);
 }

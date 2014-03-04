@@ -90,4 +90,22 @@ public class ABBTest extends TestCase {
         assertEquals(expResult, result);
     }
     
+    public void testKelilingPersegiPanjang()
+    {
+        ABB instance = new ABB();
+        assertEquals(instance.kelilingPersegiPanjang(5, 10), 30);
+        assertEquals(instance.kelilingPersegiPanjang(20, 100), 240);
+        assertEquals(instance.kelilingPersegiPanjang(2, 10), 24);
+        assertEquals(instance.kelilingPersegiPanjang(5, 11), 32);
+    }
+    
+    public void testLuasPersegiPanjang()
+    {
+        ABB instance = new ABB();
+        assertEquals(instance.LuasPersegiPanjang(5, 10), 50);
+        assertEquals(instance.LuasPersegiPanjang(5, 8), 40);
+        assertEquals(instance.LuasPersegiPanjang(2, 10), 20);
+        assertEquals(instance.LuasPersegiPanjang(7, 0), 0);
+        assertEquals(instance.LuasPersegiPanjang(8, 40), 320);
+    }
 }
